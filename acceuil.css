@@ -1,0 +1,27 @@
+.A1 {
+    color: rgb(255, 72, 0);
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 6px 6px 0px black;
+}
+
+figure {
+    text-align: center;
+}
+
+ul {
+    border: 3px solid rgb(255, 72, 0);
+    box-shadow: 10px 10px 10px black;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+body {
+    background: url("/Cours2/assets/images/vektors.webp");
+}
+
+.li1 {
+    text-decoration: none;
+}
