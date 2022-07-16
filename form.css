@@ -1,0 +1,51 @@
+html {
+    border: 1px solid red;
+    padding: 10%;
+}
+h1 {
+    text-align: center;
+}
+.intro {
+    text-align: center;
+}
+
+
+span {
+    color: red;
+}
+ 
+#name {
+    margin-left: 48px;
+    width: 250px;
+}
+#tel {
+    width: 250px;
+    margin-left: 39px;
+}
+#mail {
+    margin-left: 42px;
+    width: 250px;
+}
+#age {
+    margin-left: 52px;
+    width: 255px;
+}
+#sexe {
+    margin-left: 60px;
+    width: 261px;
+}
+
+.bouton {
+    text-align: center;
+    margin-bottom: 500px;
+}
+
+.hobbies {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 20%;
+}
+
+body {
+    background: url("./images/clouds-1282314_1920.jpg");
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./form.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulaire d'inscription</h1>
+    <p class="intro">Complétez le formulaire. Les champs marqués par <span>*</span> sont <span>obligatoires</span></p>
+
+
+
+    <form action="traitement.php" method="post">
+        <fieldset>
+            <legend><strong>CONTACT</strong></legend>
+            <p><label for="name">Nom <span>*</span></label>
+                <input type="text" name="name" id="name" placeholder="Nom">
+            </p>
+            <p>
+                <label for="tel">Portable</label>
+                <input type="tel" name="tel" id="tel" placeholder="06xxxxxxxx">
+            </p>
+            <p>
+                <label for="mail">Email <span>*</span></label>
+                <input type="email" name="mail" id="mail" placeholder="prenom.nom@xxx.com">
+            </p>
+
+
+        </fieldset>
+        <br />
+        <fieldset>
+            <legend><strong>INFORMATIONS PERSONNELLES</strong></legend>
+            <p><label for="age">Âge <span>*</span></label>
+                <input type="date" name="age" id="age">
+            </p>
+            <p><label for="sexe">Sexe</label>
+                <select name="sexe" id="sexe">
+                    <option value="Femme">Femme</option>
+                    <option value="Homme">Homme</option>
+                </select>
+            </p>
+            <p><label for="textarea">Commentaire</label>
+                &nbsp;<textarea name="text" id="textarea" cols="35" rows="10"></textarea>
+            </p>
+        </fieldset>
+</body>
+</html>
