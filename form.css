@@ -1,5 +1,5 @@
 html {
-    border: 1px solid red;
+    border: 1px solid blue;
     padding: 10%;
 }
 h1 {
@@ -31,7 +31,7 @@ span {
     width: 255px;
 }
 #sexe {
-    margin-left: 60px;
+    margin-left: 55px;
     width: 261px;
 }
 
@@ -48,4 +48,8 @@ span {
 
 body {
     background: url("./images/clouds-1282314_1920.jpg");
+}
+
+#pays{
+    margin-left: 43px;
 }

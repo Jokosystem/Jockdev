@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="fr-FR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./form.css">
-    <title>Document</title>
+    <title>Formulaire d'inscription</title>
 </head>
+
 <body>
-    <h1>Formulaire d'inscription</h1>
+    <h1>FORMULAIRE D'INSCRIPTION</h1>
     <p class="intro">Complétez le formulaire. Les champs marqués par <span>*</span> sont <span>obligatoires</span></p>
 
 
@@ -33,7 +35,7 @@
         <br />
         <fieldset>
             <legend><strong>INFORMATIONS PERSONNELLES</strong></legend>
-            <p><label for="age">Âge <span>*</span></label>
+            <p><label for="age">Âge<span>*</span></label>
                 <input type="date" name="age" id="age">
             </p>
             <p><label for="sexe">Sexe</label>
@@ -42,9 +44,37 @@
                     <option value="Homme">Homme</option>
                 </select>
             </p>
-            <p><label for="textarea">Commentaire</label>
-                &nbsp;<textarea name="text" id="textarea" cols="35" rows="10"></textarea>
-            </p>
-        </fieldset>
+        </fieldset><br />
+        <fieldset>
+            <legend><strong>LOCALISATION</strong></legend>
+            <label for="pays">Dans quel zone géographique habitez-vous ?</label>
+            <select name="pays" id="pays">
+                <optgroup label="France"></optgroup>
+                <option value="Ile-de France" selected>Ile-de-France</option>
+                <option value="Provence-Alpes-Côte d'Azur">Provence-Alpes-Côte d'Azur</option>
+                <option value="Hauts-de-France">Hauts-de-France</option>
+                <option value="Pays de la Loire">Pays de la Loire</option>
+                <option value="Normandie">Normandie</option>
+                <option value="Auvergne-Rhône-Alpes">Auvergne-Rhône-Alpes</option>
+                <option value="Bourgogne-Franche-Comté">Bourgogne-Franche-Comté</option>
+                <option value="Centre-Val de Loire">Centre-Val de Loire</option>
+                <option value="Grand Est">Grand Est</option>
+                <option value="Nouvelle-Aquitaine">Nouvelle-Aquitaine</option>
+                <option value="Bretagne">Bretagne</option>
+                <option value="Occitanie">Occitanie</option>
+
+                <optgroup label="Outre-Mer">
+                    <option value="Guadeloupe">Guadeloupe</option>
+                    <option value="Martinique">Martinique</option>
+                    <option value="Guyane">Guyane</option>
+                    <option value="La Réunion">La Réunion</option>
+
+                </optgroup>
+
+            </select>
+
+        </fieldset><br />
+        <p class="bouton"><input type="button" value="Soumettre"></p>
 </body>
+
 </html>
