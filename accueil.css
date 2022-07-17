@@ -1,0 +1,28 @@
+body {
+    background: url("./images/SL-0210121-40570-15.jpg");
+}
+
+img {
+    display: block;
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.card {
+    background-color: dimgrey;
+}
+span {
+    color: red;
+    margin-left: 15%;
+}
