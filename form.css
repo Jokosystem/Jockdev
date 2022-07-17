@@ -2,9 +2,11 @@ html {
     border: 1px solid blue;
     padding: 10%;
 }
+
 h1 {
     text-align: center;
 }
+
 .intro {
     text-align: center;
 }
@@ -13,23 +15,27 @@ h1 {
 span {
     color: red;
 }
- 
+
 #name {
     margin-left: 48px;
     width: 250px;
 }
+
 #tel {
     width: 250px;
     margin-left: 39px;
 }
+
 #mail {
     margin-left: 42px;
     width: 250px;
 }
+
 #age {
     margin-left: 52px;
     width: 255px;
 }
+
 #sexe {
     margin-left: 55px;
     width: 261px;
@@ -50,6 +56,6 @@ body {
     background: url("./images/clouds-1282314_1920.jpg");
 }
 
-#pays{
+#pays {
     margin-left: 43px;
 }
