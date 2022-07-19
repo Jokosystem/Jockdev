@@ -1,10 +1,12 @@
 body {
     background: url("./images/SL-0210121-40570-15.jpg");
+    background-size: cover;
+
 }
 
 img {
     display: block;
-    width: 50%;
+    width: 70%;
     height: auto;
     margin: auto;
 }
@@ -13,16 +15,32 @@ img {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 5%;
     margin-left: 5%;
     margin-right: 5%;
 }
-
+a {
+    display: flex;
+    justify-content: flex-end;
+}
 .card {
     background-color: darkgrey;
 }
+.btn {
+    border-radius: 15px 15px 15px 15px;
+    background-color: green;
+    border-color: gold;
+}
+
 span {
     color: red;
     margin-left: 15%;
+}
+
+.text {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: orangered;
 }
