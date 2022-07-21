@@ -20,7 +20,10 @@ span {
     margin-left: 48px;
     width: 250px;
 }
-
+#lastname{
+    margin-left: 30px;
+    width: 250px;
+}
 #tel {
     width: 250px;
     margin-left: 39px;
