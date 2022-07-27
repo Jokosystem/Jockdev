@@ -39,7 +39,7 @@
         <br />
         <fieldset>
             <legend><strong>INFORMATIONS PERSONNELLES</strong></legend>
-            <p><label for="age">Âge<span>*</span></label>
+            <p><label for="age">Âge <span>*</span></label>
                 <input type="date" name="age" id="age">
             </p>
             <p><label for="sexe">Sexe</label>
@@ -51,7 +51,7 @@
         </fieldset><br />
         <fieldset>
             <legend><strong>LOCALISATION</strong></legend>
-            <label for="pays">Dans quel zone géographique habitez-vous ?</label>
+            <label for="pays">Dans quel zone géographique habitez-vous ? <span>*</span></label>
             <select name="pays" id="pays">
                 <optgroup label="France"></optgroup>
                 <option value="Ile-de France" selected>Ile-de-France</option>
@@ -77,11 +77,12 @@
 
             </select>
 
-        </fieldset><br /><fieldset>
+        </fieldset><br />
+        <fieldset>
             <legend>
                 <strong>PHOTO DE PROFIL</strong>
             </legend>
-            <label for="profilephoto">Veuillez choisir votre photo de profil :</label>
+            <label for="profilephoto">Veuillez choisir votre photo de profil (facultatif) :</label>
             <input id="image" type="file" name="profilephoto" placeholder="photo" required="" capture>
         </fieldset>
         <p class="bouton"><input type="button" value="Soumettre"></p>

@@ -1,6 +1,6 @@
 html {
     border: 1px solid blue;
-    padding: 10%;
+    padding: auto;
 }
 
 h1 {
@@ -40,7 +40,7 @@ span {
 }
 
 #sexe {
-    margin-left: 55px;
+    margin-left: 60px;
     width: 261px;
 }
 
@@ -60,5 +60,9 @@ body {
 }
 
 #pays {
-    margin-left: 43px;
+    margin-left: 40px;
+}
+
+#image {
+    margin-left: 20px;
 }
