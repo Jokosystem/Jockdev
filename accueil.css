@@ -3,14 +3,25 @@ body {
     background-size: cover;
 
 }
-
+h1 {
+    text-align: center;
+    color: orangered;
+    font-size: 30px;
+}
 img {
     display: block;
     width: 70%;
     height: auto;
     margin: auto;
 }
-
+marquee {
+    font-size: 25px;
+    color:darkred
+}
+video {
+    display:block;
+    justify-content: center;
+}
 .cards {
     display: flex;
     flex-direction: row;
